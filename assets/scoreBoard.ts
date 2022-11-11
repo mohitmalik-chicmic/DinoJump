@@ -6,6 +6,8 @@ export class scoreBoard extends Component {
     @property({ type: Node })
     nameLabel: Node = null;
 
+
+    // User score
     @property({type : Node})
     score : Node = null;
 
