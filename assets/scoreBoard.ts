@@ -3,6 +3,8 @@ const { ccclass, property } = _decorator;
 
 @ccclass("scoreBoard")
 export class scoreBoard extends Component {
+    
+    //Lable property
     @property({ type: Node })
     nameLabel: Node = null;
 
