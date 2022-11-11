@@ -4,7 +4,7 @@ const { ccclass, property } = _decorator;
 @ccclass("scoreBoard")
 export class scoreBoard extends Component {
     
-    //Lable property
+    //Lable changed dhkhdkfh
     @property({ type: Node })
     nameLabel: Node = null;
 
